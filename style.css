@@ -5,6 +5,10 @@ body {
   h1 {
     font-size: 40px;
   }
+
+  h4 {
+    font-size: 20px;
+  }
   
   .text {
     color: #212634;
@@ -13,7 +17,7 @@ body {
   
   #icon {
     display: block;
-    width: 5%;
+    width: 15%;
     height: auto;
     margin-left: 23%;
     margin-right: 5px;
@@ -66,7 +70,11 @@ body {
     margin-top: 15px;
     font-size: 30;
     border-radius: 5px;
-    background-color: #c7d0de;
+  }
+
+  figure {
+    display: flex;
+    flex-flow: column;
   }
   
   @media only screen and (max-width: 300px) {
